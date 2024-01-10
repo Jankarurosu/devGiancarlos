@@ -1,0 +1,120 @@
+/*Diseño del body*/
+
+body {
+    font-family: Arial, sans-serif;
+    max-height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: auto;
+
+}
+
+/*Diseño del header*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #baebed;
+}
+
+#logo img {
+    width: 140px;
+    height: auto;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #baebed;
+    border-radius: 15px;
+}
+
+nav ul li:hover a {
+    color: white;
+}
+
+/*Diseño del main*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #baebed;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 270px;
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.descripcion {
+    margin-bottom: 5px;
+}
+
+.precio {
+    font: bold;
+    margin-bottom: 10px;
+}
+
+.botonComprar {
+    background-color: #baebed;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.botonComprar:hover {
+    background-color: #93e3e6;
+}
+
+/*Diseño del footer*/
+
+footer {
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #baebed;
+}
